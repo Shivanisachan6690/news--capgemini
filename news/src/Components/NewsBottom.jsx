@@ -6,7 +6,7 @@ import "./News/css/style.css";
 const NewsBottom = () => {
   return (
     <div>
-      <section className="section section--news-reports wp-block-cg-block-latest-reports">
+      <section className="newssection section--news-reports wp-block-cg-block-latest-reports">
         <div className="container">
           <div className="content-title">
             <h3>Latest research and insights</h3>
@@ -253,7 +253,7 @@ const NewsBottom = () => {
         </div>
       </section>
 
-      <section className="section latestStoriesBlock ">
+      <section className="newssection latestStoriesBlock ">
         <div className="container">
           <div className="contentTitle">
             <h3>Inside stories</h3>
