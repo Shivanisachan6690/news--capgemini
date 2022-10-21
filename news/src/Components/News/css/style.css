@@ -49,7 +49,7 @@
     transition: all .2s ease-in-out;
 }
 
-.newssection .container h6,
+.newssection #newsbottom h6,
 .h6,
 h5,
 .h5,
@@ -138,7 +138,7 @@ h1,
     margin-bottom: 1rem;
 }
 
-section .newssection .container {
+.newssection #newsbottom{
     display: block;
 }
 
@@ -176,10 +176,10 @@ section .newssection .container {
     margin-top: 2rem;
 }
 
-element.style {
+/* element.style {
     object-position: 50% 50%;
     object-fit: cover;
-}
+} */
 
 .latestStoriesBlock .storyBox .storyInfo .storyTag:before {
     content: "";

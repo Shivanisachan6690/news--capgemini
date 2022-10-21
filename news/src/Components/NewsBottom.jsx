@@ -6,8 +6,8 @@ import "./News/css/style.css";
 const NewsBottom = () => {
   return (
     <div>
-      <section className="newssection section--news-reports wp-block-cg-block-latest-reports">
-        <div className="container">
+      <section className="newssection section--news-reports wp-block-cg-block-latest-reports" id="newsbottom">
+        <div className="container" >
           <div className="content-title">
             <h3>Latest research and insights</h3>
           </div>
